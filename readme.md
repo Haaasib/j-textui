@@ -1,5 +1,5 @@
 ---
-description: PA Text UI 2 Installation Document
+description: J Text UI  Installation Document
 ---
 
 # Installation
