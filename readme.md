@@ -12,7 +12,7 @@ Put this on top of your client side and you don't need to do anything else. This
 This is for spesific coord text-ui or player
 CreateThread(function()
     -- For fixed coordinate
-    exports['j-textui']:create3DTextUI("pa-test", {
+    exports['j-textui']:create3DTextUI("j-test", {
         coords = vector3(-1461.18, -31.48, 54.63),
         displayDist = 6.0,
         interactDist = 2.0,
@@ -30,9 +30,9 @@ CreateThread(function()
             args = {}
         }
     })
-    exports['j-textui']:delete3DTextUI("pa-test")
+    exports['j-textui']:delete3DTextUI("j-test")
     -- For Players
-    exports['j-textui']:create3DTextUIOnPlayers("pa-test", {
+    exports['j-textui']:create3DTextUIOnPlayers("j-test", {
         id = targetId,
         ped = targetPed,
         displayDist = 6.0,
